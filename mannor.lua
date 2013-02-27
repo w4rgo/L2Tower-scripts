@@ -1,0 +1,22 @@
+moveDistance = 30;
+
+TargetNpc("Manor Manager", 35277);
+MoveTo(116797, 75597, -2734, moveDistance);
+Talk();
+ClickAndWait("manor_menu_select?ask=1&state=-1&time=0", "");
+TargetNpc("Territory Manager", 36494);
+MoveTo(116797, 75597, -2734, moveDistance);
+Talk();
+ClickAndWait("menu_select?ask=23000&reply=655", "");
+ClickLinkAndWait("gludio_feud_manager003.htm");
+MoveTo(116798, 75593, -2734, moveDistance);
+Talk();
+ClickLinkAndWait("gludio_feud_manager004.htm");
+ClickAndWait("menu_select?ask=23060", "");
+ClickLinkAndWait("gludio_feud_manager003.htm");
+TargetNpc("Manor Manager", 35277);
+MoveTo(116798, 75593, -2734, moveDistance);
+Talk();
+ClickAndWait("manor_menu_select?ask=6&state=-1&time=0", "");
+ClickAndWait("manor_menu_select?ask=5&state=-1&time=0", "");
+MoveTo(116798, 75593, -2734, moveDistance);
